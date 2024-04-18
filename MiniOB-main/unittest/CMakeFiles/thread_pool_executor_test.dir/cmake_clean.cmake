@@ -1,0 +1,12 @@
+file(REMOVE_RECURSE
+  "../bin/thread_pool_executor_test"
+  "../bin/thread_pool_executor_test.pdb"
+  "CMakeFiles/thread_pool_executor_test.dir/thread_pool_executor_test.cpp.o"
+  "CMakeFiles/thread_pool_executor_test.dir/thread_pool_executor_test.cpp.o.d"
+  "thread_pool_executor_test[1]_tests.cmake"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/thread_pool_executor_test.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
